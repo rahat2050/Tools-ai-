@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "model": {
+    "file": "isnet-small.onnx",
+    "size": 44342436,
+    "sha256": "7001d60734fdc112dd9c062635fb59cd401fb82a9d4213134bce4dbd655c803a",
+    "parts": [
+      "isnet-small.part00",
+      "isnet-small.part01",
+      "isnet-small.part02"
+    ]
+  },
+  "runtime": {
+    "ort": "1.31.1",
+    "files": [
+      {
+        "name": "ort-wasm-simd-threaded.wasm",
+        "size": 14848852,
+        "sha256": "4b884c203b0fa48d057be3332c65513ff85aa3c5bddd6946acc0fab7ecda001d"
+      },
+      {
+        "name": "ort-wasm-simd-threaded.mjs",
+        "size": 24738,
+        "sha256": "30ed0b5cd1182ede931fea448afb567d4dc705ec957af09f108a2be5f770dac3"
+      }
+    ]
+  }
+}
